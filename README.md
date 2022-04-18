@@ -9,6 +9,8 @@ Please contact our Head of Development for questions:
 
 
 ## Basics
+1. Please make sure to leave enough space between different code blocks.
+
 ### Node, Express and EJS
 Unless otherwise agreed, we work with Node. More specifically, we use Express for routing and EJS for rendering the pages. Use the following code snippet in the `app.js` file:
 
@@ -67,7 +69,7 @@ We have some requirements for file naming and folder structure. Please also look
 ------------
 
 #### Frontend
-Sofern nicht anders vereinbart, arbeiten wir mit HTML, SCSS, JS und JQuery.
+Unless otherwise agreed, we work with HTML, SCSS, JS and JQuery.
 ##### Assets
 | Path | Content |
 | :------------ | :------------ |
@@ -115,7 +117,7 @@ Example of a homepage:
 
 | Path | Content |
 | :------------ | :------------ |
-| `/public/js/pages/home.js` | All folders with fonts go in here. |
+| `/public/js/pages/home.js` | JS script for the homepage. |
 
 *Add more files as needed, but follow the naming rules above.*
 
@@ -124,8 +126,8 @@ Example of a homepage:
 ##### Libraries
 | Path | Content |
 | :------------ | :------------ |
-| `/public/lib` | All folders with fonts go in here. |
-| `/public/lib/jquery-3.6.0.min.js` | All folders with fonts go in here. |
+| `/public/lib` | For all library files. |
+| `/public/lib/jquery-3.6.0.min.js` | Import the jquery library. |
 
 *Add more files as needed.*
 
@@ -134,15 +136,15 @@ Example of a homepage:
 ##### Pages
 | Path | Content |
 | :------------ | :------------ |
-| `/public/pages` | All folders with fonts go in here. |
+| `/public/pages` | All folders with page components go in here. |
 
 Example of an about section on a homepage:
 
 | Path | Content |
 | :------------ | :------------ |
-| `/public/pages/home` | All folders with fonts go in here. |
-| `/public/pages/home/about/about.ejs` | All folders with fonts go in here. |
-| `/public/pages/home/about/_about.scss` | All folders with fonts go in here. |
+| `/public/pages/home` | All folders with components for the homepage go in here. |
+| `/public/pages/home/about/about.ejs` | About section on a homepage. |
+| `/public/pages/home/about/_about.scss` | About section on a homepage. |
 
 *Add more folders as needed, but follow the naming rules above.*
 
@@ -151,15 +153,15 @@ Example of an about section on a homepage:
 ##### Styles
 | Path | Content |
 | :------------ | :------------ |
-| `/public/styles` | All folders with fonts go in here. |
-| `/public/styles/_style.scss` | All folders with fonts go in here. |
+| `/public/styles` | All styles go in here. |
+| `/public/styles/_style.scss` | All general styles and variables. |
 
 Example of a homepage:
 
 | Path | Content |
 | :------------ | :------------ |
-| `/public/styles/home` | All folders with fonts go in here. |
-| `/public/styles/home/home.scss` | All folders with fonts go in here. |
+| `/public/styles/home` | All with `Live Sass Compiler` compiled files go in here. |
+| `/public/styles/home/home.scss` | All styles for the homepage. |
 
 *Add more folders as needed, but follow the naming rules above.*
 
@@ -168,16 +170,22 @@ Example of a homepage:
 ##### Views
 | Path | Content |
 | :------------ | :------------ |
-| `/public/views` | All folders with fonts go in here. |
+| `/public/views` | All pages go in here. |
 
 Example of a homepage:
 
 | Path | Content |
 | :------------ | :------------ |
-| `/public/views/home.ejs` | All folders with fonts go in here. |
+| `/public/views/home.ejs` | EJS file for the homepage. |
 
 *Add more folders as needed, but follow the naming rules above.*
 
 ## HTML
 
 ## SCSS
+Please only use SCSS for the styles.
+
+1. Please make sure you use understandable class names.
+2. Please use a color palette that you define in `_style.scss`. You are also welcome to look at the example.
+
+### Common mistakes
