@@ -11,6 +11,8 @@ Please contact our Head of Development for questions:
 ## Basics
 1. Please make sure to leave enough space between different code blocks.
 
+------------
+
 ### Node, Express and EJS
 Unless otherwise agreed, we work with Node. More specifically, we use Express for routing and EJS for rendering the pages. Use the following code snippet in the `app.js` file:
 
