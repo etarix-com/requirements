@@ -48,6 +48,9 @@ app.get('/', csrfProtection, function (req, res) {
 ```
 As you can see, the first thing to be implemented on the site is CSRF protection. The folders of the assets are then defined. You can find out more about this under *File structure and labeling*. As already mentioned, the web pages are rendered with EJS. You can see a CSRF token is attached to each page. This can then be used on the website for secure requests.
 
+------------
+
+
 ### File structure and labeling
 We have some requirements for file naming and folder structure. Please also look at the example to better understand the structure.
 
@@ -61,6 +64,8 @@ We have some requirements for file naming and folder structure. Please also look
 |  `/src` | All files and folders for the backend. |
 |  `app.js` | As the main file for server and routing. |
 
+------------
+
 #### Frontend
 ##### Assets
 |  Path | Content |
@@ -68,6 +73,16 @@ We have some requirements for file naming and folder structure. Please also look
 |  `/public/assets/favicons` | For all favicon files. |
 |  `/public/assets/opengraph` | For all opengraph files. |
 |  `/public/assets/pages` | For all images, videos, etc. that are included on the pages. |
+
+Example of an image for an about section on a homepage:
+
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/assets/pages/home/about/about.webp` | All folders with fonts go in here. |
+*Add more folders as needed, but follow the naming rules above.*
+
+------------
+
 ##### Components
 |  Path | Content |
 | :------------ | :------------ |
@@ -75,3 +90,83 @@ We have some requirements for file naming and folder structure. Please also look
 |  `/public/components/footer` | Footer as an integrated component on the pages. |
 |  `/public/components/cookies` | Cookie banner as an integrated component on the pages. |
 |  `/public/components/loader` | Loading animation as an integrated component on the pages. |
+*Add more folders as needed, but follow the naming rules above.*
+
+------------
+
+##### Fonts
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/fonts` | All folders with fonts go in here. |
+|  `/public/fonts/fonts.css` | All CSS for the font-families. |
+
+------------
+
+##### Javascript
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/js` | All folders with fonts go in here. |
+|  `/public/js/pages` | All folders with fonts go in here. |
+|  `/public/js/page.js` | All folders with fonts go in here. |
+
+Example of a homepage:
+
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/js/pages/home.js` | All folders with fonts go in here. |
+*Add more files as needed, but follow the naming rules above.*
+
+------------
+
+##### Libraries
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/lib` | All folders with fonts go in here. |
+|  `/public/lib/jquery-3.6.0.min.js` | All folders with fonts go in here. |
+*Add more files as needed.*
+
+------------
+
+##### Pages
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/pages` | All folders with fonts go in here. |
+
+Example of an about section on a homepage:
+
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/pages/home` | All folders with fonts go in here. |
+|  `/public/pages/home/about/about.ejs` | All folders with fonts go in here. |
+|  `/public/pages/home/about/_about.scss` | All folders with fonts go in here. |
+*Add more folders as needed, but follow the naming rules above.*
+
+------------
+
+##### Styles
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/styles` | All folders with fonts go in here. |
+|  `/public/styles/_style.scss` | All folders with fonts go in here. |
+
+Example of a homepage:
+
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/styles/home` | All folders with fonts go in here. |
+|  `/public/styles/home/home.scss` | All folders with fonts go in here. |
+*Add more folders as needed, but follow the naming rules above.*
+
+------------
+
+##### Views
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/views` | All folders with fonts go in here. |
+
+Example of a homepage:
+
+|  Path | Content |
+| :------------ | :------------ |
+|  `/public/views/home.ejs` | All folders with fonts go in here. |
+*Add more folders as needed, but follow the naming rules above.*
