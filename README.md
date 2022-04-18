@@ -67,6 +67,7 @@ We have some requirements for file naming and folder structure. Please also look
 ------------
 
 #### Frontend
+Sofern nicht anders vereinbart, arbeiten wir mit HTML, SCSS, JS und JQuery.
 ##### Assets
 | Path | Content |
 | :------------ | :------------ |
@@ -78,7 +79,7 @@ Example of an image for an about section on a homepage:
 
 | Path | Content |
 | :------------ | :------------ |
-| `/public/assets/pages/home/about/about.webp` | All folders with fonts go in here. |
+| `/public/assets/pages/home/about/about.webp` | Image for an about section. |
 
 *Add more folders as needed, but follow the naming rules above.*
 
@@ -107,9 +108,8 @@ Example of an image for an about section on a homepage:
 ##### Javascript
 | Path | Content |
 | :------------ | :------------ |
-| `/public/js` | All folders with fonts go in here. |
-| `/public/js/pages` | All folders with fonts go in here. |
-| `/public/js/page.js` | All folders with fonts go in here. |
+| `/public/js/pages` | For the scripts of all pages. |
+| `/public/js/page.js` | Script imported on each page. |
 
 Example of a homepage:
 
@@ -177,3 +177,7 @@ Example of a homepage:
 | `/public/views/home.ejs` | All folders with fonts go in here. |
 
 *Add more folders as needed, but follow the naming rules above.*
+
+## HTML
+
+## SCSS
