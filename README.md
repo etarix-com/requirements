@@ -10,6 +10,7 @@ Please contact our Head of Development for questions:
 
 ## Basics
 1. Please make sure to leave enough space between different code blocks.
+2. Use four spaces for a tab.
 
 ------------
 
