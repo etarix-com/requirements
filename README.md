@@ -200,6 +200,18 @@ For example a homepage with a nav bar, a head section, an about section, a servi
 5. Put the footer into:
 `/public/components/footer/footer.ejs` and `/public/components/footer/_footer.scss`
 
+## GitHub
+So that our developers can continue working on the project and we can better understand the work steps, please use GitHub.
+
+### Workflow
+Unless otherwise agreed, we work with feature, develop, production and master branches.
+
+![](https://i.imgur.com/yMrKCR1.png)
+
+> Source: https://imgur.com/yMrKCR1
+
+To lern more about the workflow, see [this Video](https://youtu.be/Lj_jAFwofLs).
+
 ## HTML
 
 ## SCSS
