@@ -1,0 +1,57 @@
+#grid{
+    position: relative;
+    width: 1920px;
+    padding: 0 100px;
+    margin-top: 100px;
+
+    @media screen and (max-width: 1920px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 970px) {
+        padding: 0 50px;
+    }
+
+    @media screen and (max-width: 625px) {
+        padding: 0 25px;
+    }
+
+    h2{
+        margin: 0;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: $highlight_dark;
+    }
+
+    p{
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 1px;
+        color: $black;
+    }
+
+    #grid_boxes{
+        display: grid;
+        grid-template-columns: repeat(5, 220px);
+        grid-template-rows: 220px;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .grid_box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background: $grey_light;
+
+            img{
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+}

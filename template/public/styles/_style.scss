@@ -1,0 +1,58 @@
+$primary: #80FFD6;
+$black: #101010;
+$white: #FFFFFF;
+
+*{
+    box-sizing: border-box !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background: $white;
+    scrollbar-color: $black $white;
+
+    ::-webkit-scrollbar-track {
+        background: $white;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: $black;
+    }
+
+    ::-moz-selection {
+        color: $white;
+        background: $black;
+    }
+
+    ::selection {
+        color: $white;
+        background: $black;
+    }
+}
+
+button{
+    outline: none !important;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+input, textarea{
+    outline: none !important;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+a, p{
+    color: $black;
+    outline: none !important;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+h1, h2, h3{
+    color: $black;
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
