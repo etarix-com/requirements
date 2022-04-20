@@ -183,6 +183,23 @@ Example of a homepage:
 
 *Add more folders as needed, but follow the naming rules above.*
 
+------------
+
+### Split into multiple Components
+Divide the web page into separate sections. Each component of the website gets its own file. Both HTML and SCSS code are divided into components.
+
+For example a homepage with a nav bar, a head section, an about section, a services section and a footer:
+1. Put the nav bar into:
+`/public/components/nav/nav.ejs` and `/public/components/nav/_nav.scss`
+2. Put the head section into:
+`/public/pages/home/header/header.ejs` and `/public/pages/home/header/_header.scss`
+3. Put the about section into:
+`/public/pages/home/about/about.ejs` and `/public/pages/home/about/_about.scss`
+4. Put the services section into:
+`/public/pages/home/services/services.ejs` and `/public/pages/home/services/_services.scss`
+5. Put the footer into:
+`/public/components/footer/footer.ejs` and `/public/components/footer/_footer.scss`
+
 ## HTML
 
 ## SCSS
@@ -190,5 +207,6 @@ Please only use SCSS for the styles.
 
 1. Please make sure you use understandable class names.
 2. Please use a color palette that you define in `_style.scss`. You are also welcome to look at the example.
+3. Make sure you indent correctly. Use four spaces for one tab. We need clear code.
 
 ### Common mistakes
