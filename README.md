@@ -8,6 +8,12 @@ Please contact our Head of Development for questions:
 - Phone: +49 152 37784110
 
 
+## Example
+We have prepared a sample page for you to simply explain our requirements. Please check the webpage along with the code.
+
+You can find the sample page at [example.etarix.com](https://example.etarix.com/).
+
+
 ## Basics
 1. Please make sure to leave enough space between different code blocks.
 2. Use four spaces for a tab.
