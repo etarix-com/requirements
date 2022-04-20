@@ -201,7 +201,7 @@ For example a homepage with a nav bar, a head section, an about section, a servi
 `/public/components/footer/footer.ejs` and `/public/components/footer/_footer.scss`
 
 ## GitHub
-So that our developers can continue working on the project and we can better understand the work steps, please use GitHub.
+So that our developers can continue working on the project and we can better understand the work steps, please use GitHub. We provide you with a Git repository for each project.
 
 ### Workflow
 Unless otherwise agreed, we work with feature, develop, production and master branches.
@@ -221,4 +221,12 @@ Please only use SCSS for the styles.
 2. Please use a color palette that you define in `_style.scss`. You are also welcome to look at the example.
 3. Make sure you indent correctly. Use four spaces for one tab. We need clear code.
 
-### Common mistakes
+### Responsive
+We don't use fixed breakpoints. The workflow should be the following: When an area is complete, slowly reduce the screen width. Prüfen Sie für jedes Element, ob dieses verkleinert, vergrößert oder verschoben werden muss.
+> Do not use fixed breakpoints where you move everything around. Use breakpoints reactionary for overlapping or to less spacing.
+
+### Common problems
+Here are some common problems for us. These can be great solutions, but you've realized that working with these solutions tends to cause a lot of problems.
+
+1. Please do not use margin auto in any direction. A better solution would be `display: flex;` for the parent element with a `flex-direction: column;` if needed.
+2. 
