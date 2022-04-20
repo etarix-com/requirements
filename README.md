@@ -213,13 +213,19 @@ Unless otherwise agreed, we work with feature, develop, production and master br
 To lern more about the workflow, see [this Video](https://youtu.be/Lj_jAFwofLs).
 
 ## HTML
+Please make sure you follow some basic guidelines:
+
+1. Make sure you indent correctly. Use four spaces for one tab. We need clear code.
+2. Avoid useless wrappers.
+3. Use Nav, Header, Main, Section and Footer tags on the website. But please use them appropriately.
+4. Never place text on a website without a paragraph, title, or link tag
 
 ## SCSS
-Please only use SCSS for the styles.
+Please only use SCSS for the styles. Please make sure you follow some basic guidelines:
 
-1. Please make sure you use understandable class names.
-2. Please use a color palette that you define in `_style.scss`. You are also welcome to look at the example.
-3. Make sure you indent correctly. Use four spaces for one tab. We need clear code.
+1. Make sure you indent correctly. Use four spaces for one tab. We need clear code.
+2. Please make sure you use understandable class names.
+3. Please use a color palette that you define in `_style.scss`. You are also welcome to look at the example.
 
 ### Responsive
 We don't use fixed breakpoints. The workflow should be the following: When an area is complete, slowly reduce the screen width. Prüfen Sie für jedes Element, ob dieses verkleinert, vergrößert oder verschoben werden muss.
@@ -229,4 +235,4 @@ We don't use fixed breakpoints. The workflow should be the following: When an ar
 Here are some common problems for us. These can be great solutions, but you've realized that working with these solutions tends to cause a lot of problems.
 
 1. Please do not use margin auto in any direction. A better solution would be `display: flex;` for the parent element with a `flex-direction: column;` if needed.
-2. 
+2. Use `display: grid;` instead of `display: flex;` for elements with more than on row.
